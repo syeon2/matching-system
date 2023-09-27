@@ -1,13 +1,13 @@
-package project.whereareyou;
+package project.matchingsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WhereAreYouApplication {
+public class MatchingSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WhereAreYouApplication.class, args);
+		SpringApplication.run(MatchingSystemApplication.class, args);
 	}
 
 }

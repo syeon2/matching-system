@@ -1,10 +1,10 @@
-package project.whereareyou;
+package project.matchingsystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WhereAreYouApplicationTests {
+class MatchingSystemApplicationTests {
 
 	@Test
 	void contextLoads() {
