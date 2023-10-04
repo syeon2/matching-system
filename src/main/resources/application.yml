@@ -6,6 +6,15 @@ spring:
     password: 1234
 
   redis:
+    # primary
     geo:
       host: localhost
       port: 6379
+    # qualified
+    routing-table:
+      host: localhost
+      port: 6380
+    # qualified
+    distributed-lock:
+      host: localhost
+      port: 6381
